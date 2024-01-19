@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PaymentServiceApplication",
+            "request": "launch",
+            "mainClass": "com.food.order.system.payment.service.domain.PaymentServiceApplication",
+            "projectName": "payment-container"
+        },
+        {
+            "type": "java",
+            "name": "RestaurantServiceApplication",
+            "request": "launch",
+            "mainClass": "com.food.order.system.restaurant.container.RestaurantServiceApplication",
+            "projectName": "restaurant-container"
+        },
+        {
+            "type": "java",
+            "name": "OrderServiceApplication",
+            "request": "launch",
+            "mainClass": "com.food.order.system.OrderServiceApplication",
+            "projectName": "order-container"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CustomerServiceApplication<customer-container>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.food.order.system.customer.service.CustomerServiceApplication",
+            "projectName": "customer-container",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
